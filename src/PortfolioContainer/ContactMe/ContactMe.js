@@ -73,7 +73,7 @@ export default function ContactMe(props){
       <div className="abc">
         <div className="main-box">
          <div className="box-contain">
-             <div className="box-image"><img src={Image1} width="240" height="260"/></div>
+             <div className="box-image"><img src={Image1} width="240" height="260" alt=""/></div>
              <div className="box-description"><a> It Showcases my skills, experiences and Knowledge</a></div>
          <div className="button">
           <button className="btn primary-btn">
@@ -109,7 +109,7 @@ export default function ContactMe(props){
 
         <div className="main-box">
          <div className="box-contain">
-             <div className="box-image"><img src={Image2} width="240" height="260"/></div>
+             <div className="box-image"><img src={Image2} width="240" height="260" alt=""/></div>
              <div className="box-description"><a>A Real Time Tracking DashBoard For Crypto</a></div>
          <div className="button">
           <button className="btn primary-btn">
@@ -145,7 +145,7 @@ export default function ContactMe(props){
 
         <div className="main-box">
          <div className="box-contain">
-             <div className="box-image"><img src={Image3} width="240" height="260"/></div>
+             <div className="box-image"><img src={Image3} width="240" height="260" alt=""/></div>
              <div className="box-description"><a>dhcvud djchnd jdcc dhcvud aa djchnd jdcc </a></div>
          <div className="button">
           <button className="btn primary-btn">
@@ -181,7 +181,7 @@ export default function ContactMe(props){
 
         <div className="main-box">
          <div className="box-contain">
-             <div className="box-image"><img src={Image4} width="240" height="260"/></div>
+             <div className="box-image"><img src={Image4} width="240" height="260" alt=""/></div>
              <div className="box-description"><a>dhcvud djchnd jdcc dhcvud aa djchnd jdcc </a></div>
          <div className="button">
           <button className="btn primary-btn" >
