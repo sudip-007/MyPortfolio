@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
+// import ScrollService from "../../utilities/ScrollService";
+// import Animations from "../../utilities/Animations";
 import "./Projects.css";
 import Image1 from '../../assets/Projects/1.png';
 import Image2 from '../../assets/Projects/2.png';
@@ -9,12 +9,13 @@ import Image3 from '../../assets/Projects/3.png';
 import Image4 from '../../assets/Projects/4.png';
 
 export default function Projects(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeInScreen !== props) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  console.log(props,"hi")
+  // let fadeInScreenHandler = (screen) => {
+  //   if (screen.fadeInScreen !== props) return;
+  //   Animations.animations.fadeInScreen(props.id);
+  // };
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
   return (
     <div>
       <ScreenHeading title={"Projects"} subHeading={"Some of My Works"} />

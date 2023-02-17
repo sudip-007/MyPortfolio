@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
-import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
+import React from "react";
+// import ScrollService from "../../utilities/ScrollService";
+// import Animations from "../../utilities/Animations";
 import Footer from './footerstyle';
 import "./FooterM.css";
 
 
 export default function Projects(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeInScreen !== props) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  // let fadeInScreenHandler = (screen) => {
+  //   if (screen.fadeInScreen !== props) return;
+  //   Animations.animations.fadeInScreen(props.id);
+  // };
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   return (
       <div>
