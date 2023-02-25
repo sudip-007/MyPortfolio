@@ -2,7 +2,6 @@ import Home from "../PortfolioContainer/Home/Home";
 import AboutMe from "../PortfolioContainer/AboutMe/AboutMe";
 import Resume from "../PortfolioContainer/Resume/Resume";
 import ContactMe from "../PortfolioContainer/ContactMe/ContactMe";
-import Projects from "../PortfolioContainer/Projects/Projects";
 import Footer from '../PortfolioContainer/FooterM/FooterM';
 
 export const TOTAL_SCREENS = [
